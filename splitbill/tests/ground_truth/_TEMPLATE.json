@@ -1,0 +1,18 @@
+{
+  "bill_id": "bill_01",
+  "condition": "dim light",
+  "photo_files": ["bill_01.jpg"],
+  "items": [
+    {"name": "Chicken Biryani", "quantity": 1, "unit_price": 320, "line_total": 320},
+    {"name": "Coke", "quantity": 1, "unit_price": 60, "line_total": 60}
+  ],
+  "charges": [
+    {"label": "CGST", "type": "tax", "percentage": 2.5},
+    {"label": "SGST", "type": "tax", "percentage": 2.5},
+    {"label": "Service Charge", "type": "service_charge", "percentage": 5}
+  ],
+  "printed_subtotal": 380,
+  "printed_total": 418,
+  "printed_total_is_wrong": false,
+  "notes": "e.g. mention if handwriting was added, two scripts used, etc."
+}
